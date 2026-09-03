@@ -1,0 +1,7 @@
+# Never commit these. session.json holds a live auth token.
+session.json
+.env
+__pycache__/
+*.pyc
+debug/
+venv/
