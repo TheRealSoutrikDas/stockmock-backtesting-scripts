@@ -23,7 +23,7 @@ playwright install chromium
 
 python test_runner.py                       # 47 logic checks, no browser
 python session_manager.py                   # log in once, saves session.json
-python stockmock_runner.py --dry-run        # validate all 40, zero credits
+python stockmock_runner.py --dry-run        # validate the matrix, zero credits
                                             # (writes only to dry_run_summary.csv)
 python stockmock_runner.py --limit 16       # execute
 python stockmock_runner.py --resume         # continue later
