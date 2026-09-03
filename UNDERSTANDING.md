@@ -99,9 +99,6 @@ constraints cannot all hold in a single day. I defined the full 40-run matrix
 in code, validated all 40 at zero cost with a dry run, and executed as many as
 the credits allowed. The arithmetic is in "Credit constraint" below.
 
-I also noticed that a one-month backtest costs the same single credit as a
-one-year one, so the current-month restriction saves nothing and costs data. I
-kept to the brief, but flagged it as the obvious next step.
 
 ## What this implies for the automation
 
@@ -112,5 +109,5 @@ settings are identical throughout.
 That is the structural fact the whole design rests on. Because the form does
 not need rebuilding per iteration, I set it up once by hand and let the script
 drive only the three time dropdowns, which keeps the calendar widgets and the
-positions panel out of the automation entirely. See "How it works".
+positions panel out of the automation entirely.
 
